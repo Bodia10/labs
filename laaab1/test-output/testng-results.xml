@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="1" total="21" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="140" started-at="2018-01-03T14:06:04Z" finished-at="2018-01-03T14:06:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="140" started-at="2018-01-03T14:06:04Z" finished-at="2018-01-03T14:06:04Z">
+      <class name="test.TestVariant8">
+        <test-method status="PASS" signature="arrayTest([D, double)[pri:0, instance:test.TestVariant8@100fc185]" name="arrayTest" duration-ms="11" started-at="2018-01-03T16:06:04Z" data-provider="arrayProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[D@61f8bee4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayTest -->
+        <test-method status="PASS" signature="arrayTest([D, double)[pri:0, instance:test.TestVariant8@100fc185]" name="arrayTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="arrayProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[D@7b49cea0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayTest -->
+        <test-method status="PASS" signature="booleanTest(int, int, boolean)[pri:0, instance:test.TestVariant8@100fc185]" name="booleanTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="booleanProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanTest -->
+        <test-method status="PASS" signature="booleanTest(int, int, boolean)[pri:0, instance:test.TestVariant8@100fc185]" name="booleanTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="booleanProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanTest -->
+        <test-method status="PASS" signature="booleanTest(int, int, boolean)[pri:0, instance:test.TestVariant8@100fc185]" name="booleanTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="booleanProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanTest -->
+        <test-method status="PASS" signature="forTest(int, int, double)[pri:0, instance:test.TestVariant8@100fc185]" name="forTest" duration-ms="3" started-at="2018-01-03T16:06:04Z" data-provider="forProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forTest -->
+        <test-method status="PASS" signature="forTest(int, int, double)[pri:0, instance:test.TestVariant8@100fc185]" name="forTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="forProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forTest -->
+        <test-method status="PASS" signature="forTest(int, int, double)[pri:0, instance:test.TestVariant8@100fc185]" name="forTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="forProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1320]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forTest -->
+        <test-method status="PASS" signature="ifTest(int, int, lab1.Variant8$IntNumbers)[pri:0, instance:test.TestVariant8@100fc185]" name="ifTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="ifProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lab1.Variant8$IntNumbers@2286778]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifTest -->
+        <test-method status="PASS" signature="inputTest(float, float, float)[pri:0, instance:test.TestVariant8@100fc185]" name="inputTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="inputProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+        <test-method status="PASS" signature="inputTest(float, float, float)[pri:0, instance:test.TestVariant8@100fc185]" name="inputTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="inputProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+        <test-method status="PASS" signature="inputTest(int, int)[pri:0, instance:test.TestVariant8@100fc185]" name="inputTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="integerProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+        <test-method status="PASS" signature="inputTest(int, int)[pri:0, instance:test.TestVariant8@100fc185]" name="inputTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="integerProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+        <test-method status="PASS" signature="inputTest(int, int)[pri:0, instance:test.TestVariant8@100fc185]" name="inputTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="integerProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+        <test-method status="PASS" signature="switchTest(int, int, lab1.Variant8$Date)[pri:0, instance:test.TestVariant8@100fc185]" name="switchTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="switchProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lab1.Variant8$Date@5f9d02cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTest -->
+        <test-method status="PASS" signature="switchTest(int, int, lab1.Variant8$Date)[pri:0, instance:test.TestVariant8@100fc185]" name="switchTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="switchProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lab1.Variant8$Date@6b09bb57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTest -->
+        <test-method status="FAIL" signature="twoDimensionArrayTest([[I, int, [[I)[pri:0, instance:test.TestVariant8@100fc185]" name="twoDimensionArrayTest" duration-ms="4" started-at="2018-01-03T16:06:04Z" data-provider="matrixProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@6325a3ee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[[I@1d16f93d]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [0]: [I@18eed359 != [I@3e9b1010 expected [[I@18eed359] but found [[I@3e9b1010]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: [I@18eed359 != [I@3e9b1010 expected [[I@18eed359] but found [[I@3e9b1010]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:686)
+	at org.testng.Assert.assertEquals(Assert.java:743)
+	at test.TestVariant8.twoDimensionArrayTest(TestVariant8.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoDimensionArrayTest -->
+        <test-method status="FAIL" signature="twoDimensionArrayTest([[I, int, [[I)[pri:0, instance:test.TestVariant8@100fc185]" name="twoDimensionArrayTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="matrixProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@65e2dbf3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[[I@4f970963]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [0]: [I@eec5a4a != [I@2b2948e2 expected [[I@eec5a4a] but found [[I@2b2948e2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: [I@eec5a4a != [I@2b2948e2 expected [[I@eec5a4a] but found [[I@2b2948e2]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:686)
+	at org.testng.Assert.assertEquals(Assert.java:743)
+	at test.TestVariant8.twoDimensionArrayTest(TestVariant8.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoDimensionArrayTest -->
+        <test-method status="PASS" signature="whileTest(int, int)[pri:0, instance:test.TestVariant8@100fc185]" name="whileTest" duration-ms="1" started-at="2018-01-03T16:06:04Z" data-provider="whileProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whileTest -->
+        <test-method status="PASS" signature="whileTest(int, int)[pri:0, instance:test.TestVariant8@100fc185]" name="whileTest" duration-ms="2" started-at="2018-01-03T16:06:04Z" data-provider="whileProvider" finished-at="2018-01-03T16:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whileTest -->
+      </class> <!-- test.TestVariant8 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

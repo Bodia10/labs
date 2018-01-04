@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">18</td><td class="num">0</td><td class="num attn">2</td><td class="num">140</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test.TestVariant8</td><td><a href="#m0">twoDimensionArrayTest</a></td><td rowspan="2">1514988364177</td><td rowspan="2">4</td></tr><tr class="failedeven"><td><a href="#m1">twoDimensionArrayTest</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="18">test.TestVariant8</td><td><a href="#m2">arrayTest</a></td><td rowspan="2">1514988364096</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m3">arrayTest</a></td></tr><tr class="passedeven"><td><a href="#m4">booleanTest</a></td><td rowspan="3">1514988364104</td><td rowspan="3">2</td></tr><tr class="passedeven"><td><a href="#m5">booleanTest</a></td></tr><tr class="passedeven"><td><a href="#m6">booleanTest</a></td></tr><tr class="passedeven"><td><a href="#m7">forTest</a></td><td rowspan="3">1514988364136</td><td rowspan="3">2</td></tr><tr class="passedeven"><td><a href="#m8">forTest</a></td></tr><tr class="passedeven"><td><a href="#m9">forTest</a></td></tr><tr class="passedeven"><td><a href="#m10">ifTest</a></td><td rowspan="1">1514988364144</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m11">inputTest</a></td><td rowspan="5">1514988364164</td><td rowspan="5">1</td></tr><tr class="passedeven"><td><a href="#m12">inputTest</a></td></tr><tr class="passedeven"><td><a href="#m13">inputTest</a></td></tr><tr class="passedeven"><td><a href="#m14">inputTest</a></td></tr><tr class="passedeven"><td><a href="#m15">inputTest</a></td></tr><tr class="passedeven"><td><a href="#m16">switchTest</a></td><td rowspan="2">1514988364174</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m17">switchTest</a></td></tr><tr class="passedeven"><td><a href="#m18">whileTest</a></td><td rowspan="2">1514988364194</td><td rowspan="2">2</td></tr><tr class="passedeven"><td><a href="#m19">whileTest</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">test.TestVariant8#twoDimensionArrayTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>[[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]]</td><td>4</td><td>[[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]]</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Lists differ at element [0]: [I@18eed359 != [I@3e9b1010 expected [[I@18eed359] but found [[I@3e9b1010]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:686)
+	at org.testng.Assert.assertEquals(Assert.java:743)
+	at test.TestVariant8.twoDimensionArrayTest(TestVariant8.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.TestVariant8#twoDimensionArrayTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>[[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]]</td><td>4</td><td>[[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]]</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Lists differ at element [0]: [I@eec5a4a != [I@2b2948e2 expected [[I@eec5a4a] but found [[I@2b2948e2]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:686)
+	at org.testng.Assert.assertEquals(Assert.java:743)
+	at test.TestVariant8.twoDimensionArrayTest(TestVariant8.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.TestVariant8#arrayTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[1.0, 3.0, 9.0, 27.0]</td><td>3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.TestVariant8#arrayTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[2.0, 4.0, 8.0]</td><td>2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.TestVariant8#booleanTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>6</td><td>3</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.TestVariant8#booleanTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>7</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.TestVariant8#booleanTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>2</td><td>4</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.TestVariant8#forTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>5</td><td>6</td><td>30</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.TestVariant8#forTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>5</td><td>120</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.TestVariant8#forTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>10</td><td>12</td><td>1320</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.TestVariant8#ifTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>6</td><td>3</td><td>lab1.Variant8$IntNumbers@2286778</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.TestVariant8#inputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>45</td><td>54</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.TestVariant8#inputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>10</td><td>10</td><td>10</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.TestVariant8#inputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>54</td><td>45</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.TestVariant8#inputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>2</td><td>20</td><td>11</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.TestVariant8#inputTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>55</td><td>55</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">test.TestVariant8#switchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>3</td><td>lab1.Variant8$Date@6b09bb57</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">test.TestVariant8#switchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>1</td><td>lab1.Variant8$Date@5f9d02cb</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">test.TestVariant8#whileTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>13</td><td>3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">test.TestVariant8#whileTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>4</td><td>2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

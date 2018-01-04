@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Andruwa\AppData\Local\Temp\testng-eclipse-663762439\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 2 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="twoDimensionArrayTest([[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]], 4, [[3, 6, -9, -9], [-98, -9, 1,...)">twoDimensionArrayTest([[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]], 4, [[3, 6, -9, -9], [-98, -9, 1,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="twoDimensionArrayTest([[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]], 4, [[3, 6, -9, -9], [2, 1, 1, -6], ...)">twoDimensionArrayTest([[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]], 4, [[3, 6, -9, -9], [2, 1, 1, -6], ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="arrayTest([1.0, 3.0, 9.0, 27.0], 3)">arrayTest([1.0, 3.0, 9.0, 27.0], 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="arrayTest([2.0, 4.0, 8.0], 2)">arrayTest([2.0, 4.0, 8.0], 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="booleanTest(6, 3, false)">booleanTest(6, 3, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="booleanTest(1, 7, true)">booleanTest(1, 7, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="booleanTest(2, 4, false)">booleanTest(2, 4, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="forTest(5, 6, 30)">forTest(5, 6, 30)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="forTest(1, 5, 120)">forTest(1, 5, 120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="forTest(10, 12, 1320)">forTest(10, 12, 1320)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="ifTest(6, 3, lab1.Variant8$IntNumbers@2286778)">ifTest(6, 3, lab1.Variant8$IntNumbers@2286778)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="inputTest(45, 54)">inputTest(45, 54)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="inputTest(10, 10, 10)">inputTest(10, 10, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="inputTest(54, 45)">inputTest(54, 45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="inputTest(2, 20, 11)">inputTest(2, 20, 11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="inputTest(55, 55)">inputTest(55, 55)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="switchTest(1, 3, lab1.Variant8$Date@6b09bb57)">switchTest(1, 3, lab1.Variant8$Date@6b09bb57)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="switchTest(1, 1, lab1.Variant8$Date@5f9d02cb)">switchTest(1, 1, lab1.Variant8$Date@5f9d02cb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="whileTest(13, 3)">whileTest(13, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TestVariant8" hash-for-method="whileTest(4, 2)">whileTest(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TestVariant8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoDimensionArrayTest([[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]], 4, [[3, 6, -9, -9], [-98, -9, 1,...)">
+                  </a> <!-- twoDimensionArrayTest([[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]], 4, [[3, 6, -9, -9], [-98, -9, 1,...) -->
+                  <span class="method-name">twoDimensionArrayTest</span>
+                  <span class="parameters">([[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]], 4, [[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]])</span>
+                  <div class="stack-trace">java.lang.AssertionError: Lists differ at element [0]: [I@18eed359 != [I@3e9b1010 expected [[I@18eed359] but found [[I@3e9b1010]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:686)
+	at org.testng.Assert.assertEquals(Assert.java:743)
+	at test.TestVariant8.twoDimensionArrayTest(TestVariant8.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoDimensionArrayTest([[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]], 4, [[3, 6, -9, -9], [2, 1, 1, -6], ...)">
+                  </a> <!-- twoDimensionArrayTest([[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]], 4, [[3, 6, -9, -9], [2, 1, 1, -6], ...) -->
+                  <span class="method-name">twoDimensionArrayTest</span>
+                  <span class="parameters">([[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]], 4, [[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]])</span>
+                  <div class="stack-trace">java.lang.AssertionError: Lists differ at element [0]: [I@eec5a4a != [I@2b2948e2 expected [[I@eec5a4a] but found [[I@2b2948e2]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:686)
+	at org.testng.Assert.assertEquals(Assert.java:743)
+	at test.TestVariant8.twoDimensionArrayTest(TestVariant8.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestVariant8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="arrayTest([1.0, 3.0, 9.0, 27.0], 3)">
+                  </a> <!-- arrayTest([1.0, 3.0, 9.0, 27.0], 3) -->
+                  <span class="method-name">arrayTest</span>
+                  <span class="parameters">([1.0, 3.0, 9.0, 27.0], 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="arrayTest([2.0, 4.0, 8.0], 2)">
+                  </a> <!-- arrayTest([2.0, 4.0, 8.0], 2) -->
+                  <span class="method-name">arrayTest</span>
+                  <span class="parameters">([2.0, 4.0, 8.0], 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="booleanTest(6, 3, false)">
+                  </a> <!-- booleanTest(6, 3, false) -->
+                  <span class="method-name">booleanTest</span>
+                  <span class="parameters">(6, 3, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="booleanTest(1, 7, true)">
+                  </a> <!-- booleanTest(1, 7, true) -->
+                  <span class="method-name">booleanTest</span>
+                  <span class="parameters">(1, 7, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="booleanTest(2, 4, false)">
+                  </a> <!-- booleanTest(2, 4, false) -->
+                  <span class="method-name">booleanTest</span>
+                  <span class="parameters">(2, 4, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forTest(5, 6, 30)">
+                  </a> <!-- forTest(5, 6, 30) -->
+                  <span class="method-name">forTest</span>
+                  <span class="parameters">(5, 6, 30)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forTest(1, 5, 120)">
+                  </a> <!-- forTest(1, 5, 120) -->
+                  <span class="method-name">forTest</span>
+                  <span class="parameters">(1, 5, 120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forTest(10, 12, 1320)">
+                  </a> <!-- forTest(10, 12, 1320) -->
+                  <span class="method-name">forTest</span>
+                  <span class="parameters">(10, 12, 1320)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ifTest(6, 3, lab1.Variant8$IntNumbers@2286778)">
+                  </a> <!-- ifTest(6, 3, lab1.Variant8$IntNumbers@2286778) -->
+                  <span class="method-name">ifTest</span>
+                  <span class="parameters">(6, 3, lab1.Variant8$IntNumbers@2286778)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inputTest(45, 54)">
+                  </a> <!-- inputTest(45, 54) -->
+                  <span class="method-name">inputTest</span>
+                  <span class="parameters">(45, 54)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inputTest(10, 10, 10)">
+                  </a> <!-- inputTest(10, 10, 10) -->
+                  <span class="method-name">inputTest</span>
+                  <span class="parameters">(10, 10, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inputTest(54, 45)">
+                  </a> <!-- inputTest(54, 45) -->
+                  <span class="method-name">inputTest</span>
+                  <span class="parameters">(54, 45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inputTest(2, 20, 11)">
+                  </a> <!-- inputTest(2, 20, 11) -->
+                  <span class="method-name">inputTest</span>
+                  <span class="parameters">(2, 20, 11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inputTest(55, 55)">
+                  </a> <!-- inputTest(55, 55) -->
+                  <span class="method-name">inputTest</span>
+                  <span class="parameters">(55, 55)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchTest(1, 3, lab1.Variant8$Date@6b09bb57)">
+                  </a> <!-- switchTest(1, 3, lab1.Variant8$Date@6b09bb57) -->
+                  <span class="method-name">switchTest</span>
+                  <span class="parameters">(1, 3, lab1.Variant8$Date@6b09bb57)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchTest(1, 1, lab1.Variant8$Date@5f9d02cb)">
+                  </a> <!-- switchTest(1, 1, lab1.Variant8$Date@5f9d02cb) -->
+                  <span class="method-name">switchTest</span>
+                  <span class="parameters">(1, 1, lab1.Variant8$Date@5f9d02cb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whileTest(13, 3)">
+                  </a> <!-- whileTest(13, 3) -->
+                  <span class="method-name">whileTest</span>
+                  <span class="parameters">(13, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whileTest(4, 2)">
+                  </a> <!-- whileTest(4, 2) -->
+                  <span class="method-name">whileTest</span>
+                  <span class="parameters">(4, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Andruwa\AppData\Local\Temp\testng-eclipse-663762439\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TestVariant8&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'arrayTest')
+data.setCell(0, 2, 'test.TestVariant8')
+data.setCell(0, 3, 11);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'twoDimensionArrayTest')
+data.setCell(1, 2, 'test.TestVariant8')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'forTest')
+data.setCell(2, 2, 'test.TestVariant8')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'forTest')
+data.setCell(3, 2, 'test.TestVariant8')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'booleanTest')
+data.setCell(4, 2, 'test.TestVariant8')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'booleanTest')
+data.setCell(5, 2, 'test.TestVariant8')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'whileTest')
+data.setCell(6, 2, 'test.TestVariant8')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'booleanTest')
+data.setCell(7, 2, 'test.TestVariant8')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'inputTest')
+data.setCell(8, 2, 'test.TestVariant8')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'inputTest')
+data.setCell(9, 2, 'test.TestVariant8')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'inputTest')
+data.setCell(10, 2, 'test.TestVariant8')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'inputTest')
+data.setCell(11, 2, 'test.TestVariant8')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ifTest')
+data.setCell(12, 2, 'test.TestVariant8')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'switchTest')
+data.setCell(13, 2, 'test.TestVariant8')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'inputTest')
+data.setCell(14, 2, 'test.TestVariant8')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'arrayTest')
+data.setCell(15, 2, 'test.TestVariant8')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'whileTest')
+data.setCell(16, 2, 'test.TestVariant8')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'switchTest')
+data.setCell(17, 2, 'test.TestVariant8')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'forTest')
+data.setCell(18, 2, 'test.TestVariant8')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'twoDimensionArrayTest')
+data.setCell(19, 2, 'test.TestVariant8')
+data.setCell(19, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TestVariant8</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginOld</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TestVariant8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">arrayTest([2.0, 4.0, 8.0], 2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">arrayTest([1.0, 3.0, 9.0, 27.0], 3)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">booleanTest(1, 7, true)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">booleanTest(6, 3, false)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">booleanTest(2, 4, false)</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forTest(1, 5, 120)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forTest(5, 6, 30)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forTest(10, 12, 1320)</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ifTest(6, 3, lab1.Variant8$IntNumbers@2286778)</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inputTest(2, 20, 11)</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inputTest(10, 10, 10)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inputTest(54, 45)</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inputTest(45, 54)</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inputTest(55, 55)</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchTest(1, 1, lab1.Variant8$Date@5f9d02cb)</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchTest(1, 3, lab1.Variant8$Date@6b09bb57)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">twoDimensionArrayTest([[3, 6, -9, -9], [-98, -9, 1, -2], [-2, 1, 1, -6], [-8, 1, 3, -5]], 4, [[3, 6, -9, -9], [-98, -9, 1,...)</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">twoDimensionArrayTest([[3, 6, -9, -9], [2, 1, 1, -6], [98, -9, 1, -2], [8, 1, 3, -5]], 4, [[3, 6, -9, -9], [2, 1, 1, -6], ...)</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whileTest(4, 2)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whileTest(13, 3)</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
