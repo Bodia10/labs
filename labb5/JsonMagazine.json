@@ -1,0 +1,57 @@
+{
+  "title" : "sport",
+  "pages" : 10,
+  "publishDate" : {
+    "year" : 2017,
+    "month" : "OCTOBER",
+    "dayOfMonth" : 11,
+    "monthValue" : 10,
+    "dayOfWeek" : "WEDNESDAY",
+    "era" : "CE",
+    "dayOfYear" : 284,
+    "leapYear" : false,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "articles" : [ {
+    "title" : "football",
+    "writingDate" : {
+      "year" : 2017,
+      "month" : "OCTOBER",
+      "dayOfMonth" : 10,
+      "monthValue" : 10,
+      "dayOfWeek" : "TUESDAY",
+      "era" : "CE",
+      "dayOfYear" : 283,
+      "leapYear" : false,
+      "chronology" : {
+        "id" : "ISO",
+        "calendarType" : "iso8601"
+      }
+    },
+    "pages" : 5,
+    "writers" : [ "petro", "vasyl" ],
+    "countWriters" : 2
+  }, {
+    "title" : "football",
+    "writingDate" : {
+      "year" : 2017,
+      "month" : "OCTOBER",
+      "dayOfMonth" : 10,
+      "monthValue" : 10,
+      "dayOfWeek" : "TUESDAY",
+      "era" : "CE",
+      "dayOfYear" : 283,
+      "leapYear" : false,
+      "chronology" : {
+        "id" : "ISO",
+        "calendarType" : "iso8601"
+      }
+    },
+    "pages" : 5,
+    "writers" : [ "petro", "vasyl" ],
+    "countWriters" : 2
+  } ]
+}

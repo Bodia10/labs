@@ -1,0 +1,20 @@
+{
+  "title" : "football",
+  "writingDate" : {
+    "year" : 2017,
+    "month" : "OCTOBER",
+    "dayOfMonth" : 10,
+    "monthValue" : 10,
+    "dayOfWeek" : "TUESDAY",
+    "era" : "CE",
+    "dayOfYear" : 283,
+    "leapYear" : false,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "pages" : 5,
+  "writers" : [ "petro", "vasyl" ],
+  "countWriters" : 2
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Magazine xmlns="Article">
+<article>
+<title>football</title>
+<pages>5</pages>
+<date>2017-10-10</date>
+<Writer>petro</Writer>
+<Writer>vasyl</Writer>
+</article>
+</Magazine>
